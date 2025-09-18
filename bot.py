@@ -50,7 +50,7 @@ if __name__ == '__main__':
         with open(nome_arquivo, 'w', encoding='utf-8') as arquivo:
             arquivo.write(output)
 
-        print(f"Arquivo '{nome_arquivo}' gerado com sucesso!")
+        print(f"Arquivo '{nome_arquivo}' gerado com sucesso! Veja seu roteiro")
 
         # A extensão é de outros tipos de arquivo
         maestro.post_artifact(
